@@ -8,6 +8,7 @@ class Hash
       if arguments[0] == values[n]
         p array << key[n]
       end
+      n += 1 
     end
     
   end
