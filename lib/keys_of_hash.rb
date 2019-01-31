@@ -6,7 +6,7 @@ class Hash
     
     while a < arguments.length
       while n < values.length 
-        if arguments[0] == values[n]
+        if arguments[a] == values[n]
           p array << keys[n]
         end
         n += 1 
