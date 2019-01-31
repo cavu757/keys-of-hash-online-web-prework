@@ -10,6 +10,6 @@ class Hash
       end
       n += 1 
     end
-    
+    array 
   end
 end
