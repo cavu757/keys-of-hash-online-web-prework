@@ -4,8 +4,8 @@ class Hash
     n = 0 
     array = []
     
-    while a < arguments.length
-      while n < values.length 
+    if a < arguments.length
+      if n < values.length 
         if arguments[a] == values[n]
           p array << keys[n]
         end
