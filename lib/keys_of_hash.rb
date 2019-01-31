@@ -1,11 +1,12 @@
 class Hash
   def keys_of(*arguments)
     a = 0 
-    n = 0 
+     
     array = []
     
-    if a < arguments.length
-      if n < values.length 
+    while a < arguments.length
+      n = 0 
+      while n < values.length 
         if arguments[a] == values[n]
           p array << keys[n]
         end
